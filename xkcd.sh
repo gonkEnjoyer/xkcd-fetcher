@@ -3,7 +3,7 @@
 Help() {
 	echo "Fetch and display xkcd comics"
 	echo
-	echo "Syntax: xkcd [-h|n]"
+	echo "Syntax: xkcd [-n|h]"
 	echo "Options:"
 	echo "n    specify the comic number, set to 0 to fetch the most recent"
 	echo "h    print help"
