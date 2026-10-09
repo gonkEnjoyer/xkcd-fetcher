@@ -1,13 +1,22 @@
 # xkcd-fetcher
  A simple bash script to fetch and display xkcd comics inside your terminal
 ## Installation
-1. Download the script and install the necessary [dependencies](#Dependencies).
+1. Download the script and install the necessary [dependencies](#Dependencies). Place it in your desired installation directory.
 2. Make the script executable by running the following in the directory where the script is placed:
    
    ```bash
    chmod +x ./xkcd.sh
    ```
-4. (Optionally) add an alias or symlink to `~/.local/bin` to run the script from anywhere.
+3. (Optionally) add an alias or symlink to `~/.local/bin` to run the script from anywhere.
+## Usage
+- Run the script from the installation directory as follows:
+
+   ```bash
+   ./xkcd.sh
+   ```
+- Running without options will allow you to select from the most recent comics on the xkcd Atom feed.
+- Use the `-n` option to specify a comic to view by number. Using 0 with `-n` will fetch the latest comic.
+- Use `-h` to print a simple help page
 ## Dependencies
  This script depends on some programs that may need to be installed separately depending on your distribution:
  - `jq`
